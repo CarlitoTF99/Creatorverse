@@ -1,0 +1,79 @@
+/* ===== Form Container ===== */
+.form-creator {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== Form Heading ===== */
+.form-creator h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #111827;
+  text-align: center;
+}
+
+/* ===== Form Labels ===== */
+.form-creator label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #374151;
+  gap: 4px;
+}
+
+/* ===== Inputs and Textareas ===== */
+.form-creator input,
+.form-creator textarea {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-creator input:focus,
+.form-creator textarea:focus {
+  border-color: #2563eb;
+}
+
+/* ===== Buttons ===== */
+.form-creator .button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-creator button {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form-creator button.save-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.form-creator button.save-btn:hover {
+  opacity: 0.9;
+}
+
+.form-creator button.delete-btn {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.form-creator button.delete-btn:hover {
+  opacity: 0.9;
+}
